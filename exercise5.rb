@@ -1,6 +1,4 @@
-
-
-puts "How many pizzas do you want to order?"
+  puts "How many pizzas do you want to order?"
 quantity = gets.chomp.to_i
 
 (quantity).times do |current_pizza|
