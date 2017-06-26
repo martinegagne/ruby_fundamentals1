@@ -11,6 +11,7 @@ if pace == "walk"
 elsif pace == "run"
   distance += 5
   puts "Distance from home is #{distance} km."
-
+else 
+  puts "Command does not exist."
 end
 end
